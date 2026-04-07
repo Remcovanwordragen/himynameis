@@ -1,0 +1,23 @@
+ input[type="text"], input[type="email"], textarea, select, button{
+        display: block;
+        margin: 15px 0px;
+        width: 400px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+        border-radius: 40x;
+        box-shadow: inset 2px 2px 5px blueviolet;
+    }
+    textarea{
+        height: 200px;
+        background-color: black;
+        color: white;
+        padding: 5px 4px;
+    }
+    button:active{
+        background-color: blueviolet;
+        color:white;
+        border-radius: 8px;
+        box-shadow: inset 2px 2px 5px green;
+    } 
